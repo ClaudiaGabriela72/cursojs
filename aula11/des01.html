@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>descobrindo a sua origem</h1>
+    Qual é o seu pais? <input type="text" id="pais" name="pais">
+    <input type="button" value="verificar" onclick="veri()">
+    <div id="resu">
+
+    </div>
+    <script>
+        function veri(){
+            var pas = window.document.getElementById('pais')
+            var resu =window.document.querySelector('div#resu')
+            resu.innerHTML = 'bem vindo '
+            if (pas = 'brasil'){
+                resu.innerHTML += 'Você é Brasileiro'
+            }else{
+                resu.innerHTML += 'Você é Estrangeiro'
+            }
+            
+        }
+        
+    </script>
+</body>
+</html>
