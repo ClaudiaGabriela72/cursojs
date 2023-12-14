@@ -24,7 +24,7 @@ function verificar(){
         }else if (fsex[1].checked) {
             genero = 'Mulher'
             if (idade >= 0 && idade < 10) {
-                img.setAttribute('src', 'fotobebeme.png')
+                img.setAttribute('src', 'fotobebemi.png')
             } else if (idade < 21) {
                 img.setAttribute('src', 'fotojovem.png')
             } else if (idade < 50) {
